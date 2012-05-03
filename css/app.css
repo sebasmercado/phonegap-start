@@ -1,0 +1,56 @@
+body {
+
+}
+
+.header { width: 100%; height:94px; 
+			background: rgb(40,28,64); /* Old browsers */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(40,28,64)), color-stop(49%,rgb(73,75,114)), color-stop(79%,rgb(74,98,144)), color-stop(100%,rgb(35,111,163))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgb(40,28,64) 0%,rgb(73,75,114) 49%,rgb(74,98,144) 79%,rgb(35,111,163) 100%); /* Chrome10+,Safari5.1+ */
+			background: linear-gradient(top,  rgb(40,28,64) 0%,rgb(73,75,114) 49%,rgb(74,98,144) 79%,rgb(35,111,163) 100%); /* W3C */						
+}
+
+.himg { width: 100%; height:94px; background: url(images/isologo-lowres-t.png) center center no-repeat; }
+
+.headshot, .icon { 
+		float:right; height:37px; width:37px; margin-left:10px;  
+		background-position:center center; background-repeat: no-repeat;
+		 
+}
+
+.icon { float: left; height:40px; margin-right:10px; }
+
+.itmtext, .cmk-label {
+	line-height: 2em;
+	float: left;		
+}
+
+.cmk-label { color: #C3D9FF; }
+
+.x-list .x-list-item .x-list-item-label, .footer {
+		min-height: 3.4em; 
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffe8), color-stop(100%,#d6dbbf)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10+,Safari5.1+ */
+		background: linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* W3C */
+}
+
+.footer {
+		text-align: center; 
+		padding: 0.65em 0.7em;
+		background: #7d7e7d; /* Old browsers */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+		background: linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */ 
+}
+
+.top{padding:12px; clear:both;}
+.top>*{float:left}
+.top .headshot{ height:60px; width:60px; margin-right:10px; background-size:cover;
+				background-position:center center; -webkit-border-radius:10px;border-radius:10px;
+				border:1px solid #444; -webkit-box-shadow:inset 0 0 2px rgba(0,0,0,0.4)
+}
+.top .name{ padding-top:0; font-size:22px; font-weight:bold }
+.top .name span { display:block; font-size:14px; font-weight:normal; color:#666 }
+.top .name a:link{ color:#3f9b26; text-decoration:none }
+.cmkrs-map h2 { color: #3f9b26; }
+.cmkrs-map h3 { color: #7d7e7d;  }
+.cmkrs-map p { font-family: arial,sans-serif; font-size: 13px; }
